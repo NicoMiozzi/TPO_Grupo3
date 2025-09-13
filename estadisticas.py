@@ -154,3 +154,5 @@ def mostrar_resumen_ejecutivo(socios, clases, inscripciones):
         clases_con_inscriptos = set(inscripcion[1] for inscripcion in inscripciones)
         clases_sin_inscriptos = total_clases - len(clases_con_inscriptos)
         print(f"CLASES SIN INSCRIPTOS: {clases_sin_inscriptos}")
+
+print("probando rama")
